@@ -21,6 +21,10 @@
 </p>
 
 <p align="center">
+  <video src="https://github.com/crshdn/mission-control/releases/download/v1.5.0/autensa-demo.mp4" width="100%" controls autoplay muted></video>
+</p>
+
+<p align="center">
   <a href="https://missioncontrol.ghray.com"><strong>🎮 Live Demo</strong></a> •
   <a href="#-quick-start">Quick Start</a> •
   <a href="#-docker">Docker</a> •
