@@ -83,9 +83,9 @@ export async function PUT(
         }
       }
 
-      for (const [role, agent_id] of deduped.entries()) {
+      Array.from(deduped.entries()).forEach(([role, agent_id]) => {
         insert.run(crypto.randomUUID(), taskId, role, agent_id);
-      }
+      });
 
       // Also set the primary assigned_agent_id to the builder (first role) if not set
       if (deduped.size > 0 && !task.assigned_agent_id) {
