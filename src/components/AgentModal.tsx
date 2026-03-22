@@ -308,7 +308,7 @@ export function AgentModal({ agent, onClose, workspaceId, onAgentCreated }: Agen
                   placeholder="agent:main:"
                 />
                 <p className="text-xs text-mc-text-secondary mt-1">
-                  OpenClaw session routing prefix. Defaults to "agent:main:" if not set.
+                  OpenClaw session routing prefix. Defaults to &quot;agent:main:&quot; if not set.
                 </p>
               </div>
             </div>
